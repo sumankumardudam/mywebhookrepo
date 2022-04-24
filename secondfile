@@ -1,8 +1,12 @@
+pipeline
+{
+agent any
+	stages {
 
-fdfdfsdfsdf
-
-adding a ner line
-sdasdasd code checkin
-8th build
-8th build
-Complete Build
+		stage (Stage 1) 
+			{
+			  steps{echo 'my first pipleline'}	
+			}
+ 
+       	}
+}
